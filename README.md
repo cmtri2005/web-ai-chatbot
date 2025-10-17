@@ -27,15 +27,6 @@ web-ai-chatbot/
 └── README.md                 # This file
 ```
 
-## 🚀 Hướng dẫn cài đặt và chạy
-
-### Yêu cầu hệ thống
-
-- Python 3.9+
-- Docker & Docker Compose
-- AWS Account với quyền truy cập Bedrock
-- Git
-
 ### Clone repository
 
 ```bash
@@ -72,7 +63,7 @@ python ingest_data.py
 # Trong thư mục backend với venv đã activate
 uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
 ```
-###n Frontend
+### Frontend
 ```bash
 cd chatbot-ui
 
