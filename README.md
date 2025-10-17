@@ -33,6 +33,8 @@ web-ai-chatbot/
 git clone <repository-url>
 cd web-ai-chatbot
 ```
+### DATASET
+https://drive.google.com/drive/folders/1xqMm021VPyUfZ0fBw9jy_Yr2AOQOe9u7?usp=sharing
 
 ### Qdrant
 ```bash
