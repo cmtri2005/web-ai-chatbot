@@ -26,16 +26,6 @@ web-ai-chatbot/
 ├── .env_example              # Environment variables template
 └── README.md                 # This file
 ```
-
-## 🚀 Hướng dẫn cài đặt và chạy
-
-### Yêu cầu hệ thống
-
-- Python 3.9+
-- Docker & Docker Compose
-- AWS Account với quyền truy cập Bedrock
-- Git
-
 ### Clone repository
 
 ```bash
@@ -60,7 +50,6 @@ python -m venv venv
 
 source venv/bin/activate
 
-# Cài đặt dependencies
 pip install -r requirements.txt
 ```
 ### Ingest data
@@ -69,14 +58,13 @@ python ingest_data.py
 ```
 ### Backend
 ```bash
-# Trong thư mục backend với venv đã activate
+#
 uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
 ```
-###n Frontend
+### Frontend
 ```bash
 cd chatbot-ui
 
-# Tạo virtual environment
 python -m venv venv
 
 source venv/bin/activate
